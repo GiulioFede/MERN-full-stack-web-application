@@ -1,0 +1,21 @@
+.mainBox {
+    width: 700px;
+    height: 400px;
+    background-color: rgba(255, 230, 0, 0.6);
+    margin: 10px;
+    margin-bottom: 100px;
+    border-radius: 10px 10px 10px 10px;
+  }
+
+  .image {
+    width: 400px;
+    height: 400px;
+    float: left;
+    border-radius: 0px 15px 15px 100px;
+  }
+
+  .description-area {
+    padding-left: 10px;
+    display: flex;
+    flex-direction: column
+  }
