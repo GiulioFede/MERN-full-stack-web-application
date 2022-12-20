@@ -17,7 +17,7 @@ function UserItem(props){
     return (
         <div className='mainBox'>
                 <h1 className='section-title'> {props.name} </h1>
-                <Link to={`/${props.username}`}>
+                <Link to={`/users/${props.username}`}>
                     <img src={props.image} className='image' />
                 </Link>
                 <div className='description-area'>
